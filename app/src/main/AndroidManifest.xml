@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kursach">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Текстовый квест"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <service android:name=".SoundService"
+            android:enabled="true"></service>
+        <activity
+            android:name=".Screen9_1"
+            android:exported="false" />
+        <activity
+            android:name=".Screen10_1"
+            android:exported="false" />
+        <activity
+            android:name=".Screen15"
+            android:exported="false" />
+        <activity
+            android:name=".Screen14"
+            android:exported="false" />
+        <activity
+            android:name=".Screen13"
+            android:exported="false" />
+        <activity
+            android:name=".Screen12"
+            android:exported="false" />
+        <activity
+            android:name=".Screen11"
+            android:exported="false" />
+        <activity
+            android:name=".Screen10"
+            android:exported="false" />
+        <activity
+            android:name=".Screen9"
+            android:exported="false" />
+        <activity
+            android:name=".Screen8"
+            android:exported="false" />
+        <activity
+            android:name=".Screen7"
+            android:exported="false" />
+        <activity
+            android:name=".Screen6"
+            android:exported="false" />
+        <activity
+            android:name=".Screen5"
+            android:exported="false" />
+        <activity
+            android:name=".Screen4"
+            android:exported="false" />
+        <activity
+            android:name=".Screen3"
+            android:exported="false" />
+        <activity
+            android:name=".Screen2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fon_priloj"
+    tools:context=".Screen10">
+
+    <Button
+        android:id="@+id/btnPogreb"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:onClick="btnPogreb"
+        android:text="«Пойти в погреб»"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:backgroundTint="#36000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.844" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="330dp"
+        android:layout_height="125dp"
+        android:text="      На первом этаже находиться гостиная с кухней, ванна, комната родителей и дверь в погреб."
+        android:textColor="#0B0303"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.188" />
+
+    <Button
+        android:id="@+id/btnRod"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:onClick="btnRod"
+        android:text="«Зажечь свечи в гостиной и кухне. Затем пойти в родительскую комнату»"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:backgroundTint="#36000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.678" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="330dp"
+        android:layout_height="125dp"
+        android:text="      В выборе могла быть ванна, но там сломана ручка и когда кто то хотел в ванну, то дверь получалось открыть только вашему отцу."
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.394" />
+</androidx.constraintlayout.widget.ConstraintLayout>

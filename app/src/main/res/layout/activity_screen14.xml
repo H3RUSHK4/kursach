@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fon_priloj"
+    tools:context=".Screen14">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="309dp"
+        android:layout_height="210dp"
+        android:text="      С первыми лучами солнца вы просыпаетесь. Осмотревшись, вы понимаете, что родители так и не вернулись. \n        Но через пару секунд родители заходят в дом вместе с Томасом."
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.297" />
+
+    <Button
+        android:id="@+id/btnNext14"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:onClick="btnNext14"
+        android:text="Далее"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:backgroundTint="#36000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.754" />
+</androidx.constraintlayout.widget.ConstraintLayout>

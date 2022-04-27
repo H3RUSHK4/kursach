@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fon_priloj"
+    tools:context=".Screen8">
+
+    <Button
+        android:id="@+id/btn1floor"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:onClick="btn1floor"
+        android:text="«Спуститься на первый этаж»"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:backgroundTint="#36000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.789" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="301dp"
+        android:layout_height="127dp"
+        android:text="      Вы идете прямо к единственной двери в этой комнате. \n      Сейчас вы в коридоре второго этажа. "
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.231" />
+
+    <Button
+        android:id="@+id/btnRoom"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:onClick="btnRoom"
+        android:text="«Пойти в свою комнату» "
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:backgroundTint="#36000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.647" />
+</androidx.constraintlayout.widget.ConstraintLayout>
