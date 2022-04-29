@@ -41,6 +41,7 @@
         android:id="@+id/btnNo11"
         android:layout_width="150dp"
         android:layout_height="100dp"
+        android:onClick="btnNo11"
         android:text="Нет"
         android:textColor="#000000"
         android:textSize="20sp"

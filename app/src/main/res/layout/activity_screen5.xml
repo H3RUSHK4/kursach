@@ -56,7 +56,7 @@
         android:layout_width="180dp"
         android:layout_height="140dp"
         android:onClick="btnvar2"
-        android:text="Спрятаться под стол и ждать пока приедут родители под столом."
+        android:text="Спрятаться под стол и ждать пока приедут родители."
         android:textColor="#0B0707"
         android:textSize="14sp"
         app:backgroundTint="#36000000"
